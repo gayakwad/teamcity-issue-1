@@ -2,6 +2,7 @@ package Group_Issue1
 
 import Group_Issue1.buildTypes.Group_Issue1_Build
 import Group_Issue1.buildTypes.Group_Issue1_Publish
+import Group_Issue1.buildTypes.Group_Issue1_Publish_Foo
 import Group_Issue1.buildTypes.Group_Issue1_Test
 import Group_Issue1.vcsRoots.Group_Issue1
 import jetbrains.buildServer.configs.kotlin.v10.Project
