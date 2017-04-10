@@ -21,6 +21,7 @@ object Project : Project({
     buildType(Group_Issue1_Build)
     buildType(Group_Issue1_Test)
     buildType(Group_Issue1_Publish)
+    buildType(Group_Issue1_Publish_Foo)
 
     features {
         versionedSettings {
@@ -36,6 +37,7 @@ object Project : Project({
     buildTypesOrder = arrayListOf(
         Group_Issue1_Build,
         Group_Issue1_Test,
-        Group_Issue1_Publish
+        Group_Issue1_Publish,
+        Group_Issue1_Publish_Foo
     )
 })

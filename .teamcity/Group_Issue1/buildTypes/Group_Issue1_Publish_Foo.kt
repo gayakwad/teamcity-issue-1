@@ -6,10 +6,10 @@ import jetbrains.buildServer.configs.kotlin.v10.buildFeatures.vcsLabeling
 import jetbrains.buildServer.configs.kotlin.v10.buildSteps.script
 import jetbrains.buildServer.configs.kotlin.v10.triggers.finishBuildTrigger
 
-object Group_Issue1_Publish : BuildType({
+object Group_Issue1_Publish_Foo : BuildType({
     uuid = "312035b7-4826-42e1-a9e2-4ed9812768e8"
-    extId = "Group_Issue1_Publish"
-    name = "Publish"
+    extId = "Group_Issue1_Publish_Foo"
+    name = "Publish Foo"
 
     vcs {
         root(Group_Issue1)
@@ -18,7 +18,7 @@ object Group_Issue1_Publish : BuildType({
 
     steps {
         script {
-            scriptContent = """echo "Publishing %teamcity.build.branch% ...""""
+            scriptContent = """echo "Foo Publishing %teamcity.build.branch% ...""""
         }
     }
 
