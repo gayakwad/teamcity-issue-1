@@ -9,7 +9,7 @@ object Group_Issue1 : GitVcsRoot({
     url = "git@github.com:gayakwad/teamcity-issue-1.git"
     pushUrl = "git@github.com:gayakwad/teamcity-issue-1.git"
     authMethod = uploadedKey {
-        uploadedKey = "VSC Key"
+        uploadedKey = "VCS Key"
     }
     agentCleanPolicy = AgentCleanPolicy.ALWAYS
     branchSpec = """
