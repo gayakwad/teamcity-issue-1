@@ -1,6 +1,7 @@
 package Group_Issue1
 
 import Group_Issue1.buildTypes.Group_Issue1_Build
+import Group_Issue1.buildTypes.Group_Issue1_Build_Foo
 import Group_Issue1.buildTypes.Group_Issue1_Publish
 import Group_Issue1.buildTypes.Group_Issue1_Publish_Foo
 import Group_Issue1.buildTypes.Group_Issue1_Test
@@ -20,6 +21,7 @@ object Project : Project({
     vcsRoot(Group_Issue1)
 
     buildType(Group_Issue1_Build)
+    buildType(Group_Issue1_Build_Foo)
     buildType(Group_Issue1_Test)
     buildType(Group_Issue1_Publish)
     buildType(Group_Issue1_Publish_Foo)
@@ -37,6 +39,7 @@ object Project : Project({
 
     buildTypesOrder = arrayListOf(
         Group_Issue1_Build,
+        Group_Issue1_Build_Foo,
         Group_Issue1_Test,
         Group_Issue1_Publish,
         Group_Issue1_Publish_Foo
