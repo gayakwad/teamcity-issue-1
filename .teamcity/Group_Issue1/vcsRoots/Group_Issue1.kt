@@ -3,7 +3,7 @@ package Group_Issue1.vcsRoots
 import jetbrains.buildServer.configs.kotlin.v10.vcs.GitVcsRoot
 
 object Group_Issue1 : GitVcsRoot({
-    uuid = "09d05610-5493-4e2d-953c-a4f253c1fed9"
+    uuid = "aac6dc48-edb8-4f4d-a51b-8f8b03041e2f"
     extId = "Group_Issue1"
     name = "Group_Issue1"
     url = "git@github.com:gayakwad/teamcity-issue-1.git"
