@@ -9,7 +9,7 @@ import jetbrains.buildServer.configs.kotlin.v10.triggers.finishBuildTrigger
 object Group_Issue1_Publish : BuildType({
     uuid = "312035b7-4826-42e1-a9e2-4ed9812768e8"
     extId = "Group_Issue1_Publish"
-    name = "Publish"
+    name = "Publish Name Changed"
 
     vcs {
         root(Group_Issue1)
